@@ -19,25 +19,30 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
-                <div class="navbar navbar navbar-static-top">
-           <div class="container navbar"> 
-            <div class="navbar-inner">    
+          <body>   
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+    <!-- Begin page content -->
+      <div class="container">        
+      <!-- Static navbar -->
+      <div class="navbar navbar-static-top">
+        <div class="container navbar-inner">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Project name</a>
-                    <div class="nav-collapse collapse">
-                              <?php
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+      <?php
     $bt_nav = BlockType::getByHandle('autonav');
     $bt_nav->controller->displayPages = 'top';
     $bt_nav->controller->orderBy = 'display_asc';
     $bt_nav->controller->displaySubPages = 'none';
     $bt_nav->render('c5initializr_header_menu');
     ?>   
-                    </div><!--/.nav-collapse -->
-                </div>
 
-
+    
+  </div><!--/.nav-collapse -->
+        </div>
+      </div>
