@@ -1,0 +1,26 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Wrapper for page content to push down footer */
+
+body {
+	padding-top: 10px;
+	padding-bottom: 60px;
+            }
+
+.hero-unit {
+	margin-top: 30px;
+}
+
+.container {
+	width: 1170px;
+}
+
+.navbar-inner-top {
+	min-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #eeeeee;
+}
