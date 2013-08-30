@@ -1,6 +1,6 @@
 <?php 
 defined('C5_EXECUTE') or die(_("Access Denied."));
-?>  
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -19,8 +19,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-          <body>   
-    <!-- Wrap all page content here -->
+          <body>
     <div id="wrap">
     <!-- Begin page content -->
       <div class="container">        
@@ -46,3 +45,4 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
   </div><!--/.nav-collapse -->
         </div>
       </div>
+<!--/end header.php start default.php -->

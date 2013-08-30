@@ -4,7 +4,6 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 <?php Loader::element('footer_required'); ?>
 <footer>
 <div id="footer">
-  <?php Loader::element('footer_required'); ?>
       <div class="container">
         <?php
         $a = new Area('footer');

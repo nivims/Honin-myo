@@ -1,2 +1,2 @@
-c5Initializr
+Eshofuni 2.0
 A basic responsive Concrete5 theme using Initializr and Bootstrap.
