@@ -1,2 +1,2 @@
-Eshofuni 2.0
+Honin-myo
 A basic responsive Concrete5 theme using Initializr and Bootstrap.

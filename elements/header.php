@@ -38,7 +38,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
     $bt_nav->controller->displayPages = 'top';
     $bt_nav->controller->orderBy = 'display_asc';
     $bt_nav->controller->displaySubPages = 'none';
-    $bt_nav->render('c5initializr_header_menu');
+    $bt_nav->render('honinmyo_header_menu');
     ?>   
 
     
